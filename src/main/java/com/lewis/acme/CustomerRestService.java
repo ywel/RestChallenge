@@ -12,6 +12,7 @@ package com.lewis.acme;
  * customer Crud methods
  */
 import com.api.models.Customer;
+import com.api.models.CustomerFact;
 import com.api.models.Employee;
 import java.util.ArrayList;
 import java.util.Date;
@@ -46,6 +47,9 @@ public class CustomerRestService {
     public Response createCustomer(Customer customer) {
 
         String result = "Customer saved : " + customer;
+        CustomerFact CF =new CustomerFact();
+        int rn= CF.Number();
+        customer.setCustomer_id("KLM"+rn);
         return Response.status(201).entity(customer).build();
 
     }
@@ -54,12 +58,15 @@ public class CustomerRestService {
     @Path("/list")
     @Produces(MediaType.APPLICATION_JSON)
     public Customer getInfo() {
+        
+        CustomerFact CF =new CustomerFact();
+       int rn= CF.Number();
 
         Customer cust = new Customer();
         cust.setCustomer_name("Lewis");
         cust.setCusomer_limit(50000.00);
         cust.setCustomer_account_no("001123547889Z");
-        cust.setCustomer_id("JTLK789");
+        cust.setCustomer_id("KLM"+rn);
         return cust;
     }
 
