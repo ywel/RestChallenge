@@ -276,7 +276,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\"msisdn\":\"254747018220\",\n  \"amount\":\"1\",\n  \"refno\":\"LLL0SSWQ60\",\n   \"paymentCode\":\"mpesa\",\n   \"userCode\":\"agent crm \",\n   \"transSerial\":\"1516725113\",\n   \"userHash\":\"MTY5Y==\"\n}\n"
+              "raw": "{\"msisdn\":\"254747018220\",\n  \"amount\":\"1\",\n  \"refno\":\"LLL0SSWQ60\",\n   \"paymentCode\":\"mpesa\",\n   \"userCode\":\"agent@yourdomian.com\",\n   \"transSerial\":\"1516725113\",\n   \"userHash\":\"GFDG7454645b4v545c45M==\"\n}\n"
             },
             "url": "https://192.168.47.7:8243/faiba/mobile/v3/DFaibaRecharge"
           },
