@@ -7,13 +7,11 @@
   },
   "item": [
     {
-      "_postman_id": "182735-cb6b456a-85b7-4acc-8922-b8dc51a0f21e",
       "name": "DFaibaBalance",
-      "description": "Folder for DFaibaBalance",
       "item": [
         {
-          "_postman_id": "182735-8eb75eb1-761d-40e1-84a4-a8190a486df6",
           "name": "Sub Balance",
+          "_postman_id": "182735-8eb75eb1-761d-40e1-84a4-a8190a486df6",
           "request": {
             "auth": {
               "type": "oauth2",
@@ -38,16 +36,16 @@
           },
           "response": []
         }
-      ]
+      ],
+      "_postman_id": "182735-cb6b456a-85b7-4acc-8922-b8dc51a0f21e",
+      "description": "Folder for DFaibaBalance"
     },
     {
-      "_postman_id": "182735-55ba6d81-9655-42de-a877-d6c34d3aa6d2",
       "name": "DFaibaBundlesTopup",
-      "description": "Folder for DFaibaBundlesTopup",
       "item": [
         {
-          "_postman_id": "182735-027b666f-494c-45ed-a2cf-d18b7485b75d",
           "name": "Buy Bundles",
+          "_postman_id": "182735-027b666f-494c-45ed-a2cf-d18b7485b75d",
           "request": {
             "auth": {
               "type": "oauth2",
@@ -248,16 +246,16 @@
             }
           ]
         }
-      ]
+      ],
+      "_postman_id": "182735-55ba6d81-9655-42de-a877-d6c34d3aa6d2",
+      "description": "Folder for DFaibaBundlesTopup"
     },
     {
-      "_postman_id": "182735-0b332790-fceb-4b5d-9879-841f133525bd",
       "name": "DFaibaRecharge",
-      "description": "Folder for DFaibaRecharge",
       "item": [
         {
-          "_postman_id": "182735-db381c02-e964-4496-aa17-b92c37f38721",
           "name": "TopUp",
+          "_postman_id": "182735-db381c02-e964-4496-aa17-b92c37f38721",
           "request": {
             "auth": {
               "type": "oauth2",
@@ -371,16 +369,16 @@
             }
           ]
         }
-      ]
+      ],
+      "_postman_id": "182735-0b332790-fceb-4b5d-9879-841f133525bd",
+      "description": "Folder for DFaibaRecharge"
     },
     {
-      "_postman_id": "182735-8ceef146-39c4-48d8-8c63-288fe166ae8e",
       "name": "DFaibacheckout",
-      "description": "Folder for DFaibacheckout",
       "item": [
         {
-          "_postman_id": "182735-b8e3a5ff-5e87-4bd9-b026-e5011a41628a",
           "name": "Mpesa Checkout Bundles",
+          "_postman_id": "182735-b8e3a5ff-5e87-4bd9-b026-e5011a41628a",
           "request": {
             "method": "POST",
             "header": [],
@@ -392,16 +390,16 @@
           },
           "response": []
         }
-      ]
+      ],
+      "_postman_id": "182735-8ceef146-39c4-48d8-8c63-288fe166ae8e",
+      "description": "Folder for DFaibacheckout"
     },
     {
-      "_postman_id": "182735-ef16e85a-223a-4894-8aa0-fa3b1d9fc703",
       "name": "DFaibaAirtimecheckout",
-      "description": "Folder for DFaibaAirtimecheckout",
       "item": [
         {
-          "_postman_id": "182735-76d76981-b9c3-4ecd-af25-2652daa87f82",
           "name": "Mpesa Checkout",
+          "_postman_id": "182735-76d76981-b9c3-4ecd-af25-2652daa87f82",
           "request": {
             "method": "POST",
             "header": [],
@@ -413,7 +411,9 @@
           },
           "response": []
         }
-      ]
+      ],
+      "_postman_id": "182735-ef16e85a-223a-4894-8aa0-fa3b1d9fc703",
+      "description": "Folder for DFaibaAirtimecheckout"
     }
   ]
 }
