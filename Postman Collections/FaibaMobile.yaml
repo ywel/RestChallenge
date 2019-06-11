@@ -46,8 +46,6 @@ paths:
         200:
           description: ''
           headers: {}
-      security:
-      - auth: []
   /DFaibaBundlesTopup:
     post:
       description: 'TODO: Add Description'
@@ -120,8 +118,6 @@ paths:
               message: '[S-ACT-00049] [Balance is not enough or no effective balance.] '
               time: 1534789547
               Result: ''
-      security:
-      - auth: []
   /DFaibaRecharge:
     post:
       description: 'TODO: Add Description'
@@ -158,8 +154,6 @@ paths:
               message: invalid userCode
               time: 1534789703
               ref: LLL0SSWQ60
-      security:
-      - auth: []
   /DFaibacheckout:
     post:
       description: 'TODO: Add Description'
@@ -181,8 +175,6 @@ paths:
         200:
           description: ''
           headers: {}
-      security:
-      - auth: []
   /DFaibaAirtimecheckout:
     post:
       description: 'TODO: Add Description'
@@ -204,8 +196,6 @@ paths:
         200:
           description: ''
           headers: {}
-      security:
-      - auth: []
 definitions:
   SubBalanceRequest:
     title: SubBalanceRequest
@@ -350,6 +340,8 @@ definitions:
     - message
     - time
     - ref
+security:
+- auth: []
 tags:
 - name: DFaibaBalance
   description: Folder for DFaibaBalance
