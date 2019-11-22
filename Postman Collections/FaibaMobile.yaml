@@ -26,7 +26,7 @@ paths:
       summary: Sub Balance
       tags:
       - DFaibaBalance
-      operationId: DFaibaBalancePost
+      operationId: SubBalance
       deprecated: false
       produces:
       - application/json
@@ -52,7 +52,7 @@ paths:
       summary: Buy Bundles
       tags:
       - DFaibaBundlesTopup
-      operationId: DFaibaBundlesTopupPost
+      operationId: BuyBundles
       deprecated: false
       produces:
       - application/json
@@ -124,7 +124,7 @@ paths:
       summary: TopUp
       tags:
       - DFaibaRecharge
-      operationId: DFaibaRechargePost
+      operationId: TopUp
       deprecated: false
       produces:
       - application/json
@@ -160,7 +160,7 @@ paths:
       summary: Mpesa Checkout Bundles
       tags:
       - DFaibacheckout
-      operationId: DFaibacheckoutPost
+      operationId: MpesaCheckoutBundles
       deprecated: false
       produces:
       - application/json
@@ -181,7 +181,7 @@ paths:
       summary: Mpesa Checkout
       tags:
       - DFaibaAirtimecheckout
-      operationId: DFaibaAirtimecheckoutPost
+      operationId: MpesaCheckout
       deprecated: false
       produces:
       - application/json
