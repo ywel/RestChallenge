@@ -22,7 +22,6 @@ produces:
 paths:
   /DFaibaBalance:
     post:
-      description: 'TODO: Add Description'
       summary: Sub Balance
       tags:
       - DFaibaBalance
@@ -48,7 +47,6 @@ paths:
           headers: {}
   /DFaibaBundlesTopup:
     post:
-      description: 'TODO: Add Description'
       summary: Buy Bundles
       tags:
       - DFaibaBundlesTopup
@@ -120,7 +118,6 @@ paths:
               Result: ''
   /DFaibaRecharge:
     post:
-      description: 'TODO: Add Description'
       summary: TopUp
       tags:
       - DFaibaRecharge
@@ -156,7 +153,6 @@ paths:
               ref: LLL0SSWQ60
   /DFaibacheckout:
     post:
-      description: 'TODO: Add Description'
       summary: Mpesa Checkout Bundles
       tags:
       - DFaibacheckout
@@ -170,6 +166,7 @@ paths:
         required: true
         description: ''
         schema:
+          example: Request Body
           type: string
       responses:
         200:
@@ -177,7 +174,6 @@ paths:
           headers: {}
   /DFaibaAirtimecheckout:
     post:
-      description: 'TODO: Add Description'
       summary: Mpesa Checkout
       tags:
       - DFaibaAirtimecheckout
@@ -191,6 +187,7 @@ paths:
         required: true
         description: ''
         schema:
+          example: Request Body
           type: string
       responses:
         200:
